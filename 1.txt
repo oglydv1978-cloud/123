@@ -1,0 +1,1922 @@
+c:\ADB>adb shell dumpsys package com.huawei.camera
+Activity Resolver Table:
+  Schemes:
+      camera:
+        9b8f3ba com.huawei.camera/.CarSteeringWheelCapture filter 9dea26b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "camera"
+          Authority: "camera.huawei.com": -1
+          Path: "PatternMatcher{LITERAL: /steeringwheel/capture}"
+        ef29186 com.huawei.camera/com.huawei.camera filter 9d1739d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "camera"
+          Authority: "camera.huawei.com": -1
+          Path: "PatternMatcher{PREFIX: /capturemode}"
+        f15bf6a com.huawei.camera/.controller.BotResponseActivity filter 290fc5b
+          Action: "com.huawei.media.action.VOICE_CAPTURE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "camera"
+          Authority: "camera.huawei.com": -1
+          Path: "PatternMatcher{PREFIX: /capturemode}"
+
+  Non-Data Actions:
+      com.huawei.camera.shortcut.AI_TRACKING:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.ZOOM_EXTENSION:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      android.media.action.IMAGE_CAPTURE:
+        cab31e0 com.huawei.camera/.ThirdCamera filter 156ac99
+          Action: "android.media.action.IMAGE_CAPTURE"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.action.FA_CARD_ENTRY:
+        165daae com.huawei.camera/.FaCardEntryActivity filter 193504f
+          Action: "com.huawei.camera.action.FA_CARD_ENTRY"
+      com.huawei.camera.store.show.SUPER_CAMERA_SCENE:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      android.media.action.IMAGE_CAPTURE_SECURE:
+        e015cf8 com.huawei.camera/.controller.SecureCameraActivity filter 9486836
+          Action: "android.media.action.IMAGE_CAPTURE_SECURE"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.COLOR_MODE_EXTENSION:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.WIND_SNAPSHOT:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.SUPER_MACRO:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        ef29186 com.huawei.camera/com.huawei.camera filter 942fa47
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+      com.huawei.camera.shortcut.STICKER_MODE:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.NIGHT:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.BACK_PORTRAIT:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.NIGHT_SCENE:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.BACK_APERTURE:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.BACK_WHITE_BLACK:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.FRONT_BEAUTY:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.BACK_PANORAMA:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.SUPER_MACRO:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_PRO_PHOTO:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.STORY_MODE:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.FRONT_RECORD:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.BACK_PRO_PHOTO:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.SUPER_SLOW_ACTION:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.SETTING_PAGE:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_HDR:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.android.intent.action.LAUNCH_PLUGIN_MARKET:
+        3590337 com.huawei.camera/com.huawei.pluginmarket.ui.activity.PluginListActivity filter f6b50a4
+          Action: "com.huawei.android.intent.action.LAUNCH_PLUGIN_MARKET"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_WHITE_BLACK:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.media.action.IMAGE_AND_VIDEO_CAPTURE:
+        cab31e0 com.huawei.camera/.ThirdCamera filter 1d44b5e
+          Action: "com.huawei.media.action.IMAGE_AND_VIDEO_CAPTURE"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_DYNAMIC_STICKER:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      android.media.action.STILL_IMAGE_CAMERA:
+        c0eee09 com.huawei.camera/.controller.VoiceAssistantActivity filter 2d8480e
+          Action: "android.media.action.STILL_IMAGE_CAMERA"
+          Category: "android.intent.category.VOICE"
+          Category: "android.intent.category.DEFAULT"
+      android.media.action.STILL_IMAGE_CAMERA_SECURE:
+        e015cf8 com.huawei.camera/.controller.SecureCameraActivity filter b855d1
+          Action: "android.media.action.STILL_IMAGE_CAMERA_SECURE"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_BEAUTY:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.FREEDOM_CREATION:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_TIME_LAPSE:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_LIGHT_PAINTING:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.SNAPSHOT:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      android.media.action.VIDEO_CAPTURE:
+        f0eeb3f com.huawei.camera/com.android.camera.VideoCamera filter 65c7955
+          Action: "android.media.action.VIDEO_CAPTURE"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.WIND_SNAPSHOT:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_LIVE_PHOTO:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.FRONT_BEAUTY:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.lisense.HW_SHOW_LISENSE:
+        61b7e0d com.huawei.camera/.EmptyLicenseActivity filter 52ad1c2
+          Action: "com.huawei.lisense.HW_SHOW_LISENSE"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_RECORD:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      android.media.action.VIDEO_CAMERA:
+        f0eeb3f com.huawei.camera/com.android.camera.VideoCamera filter 6c18c0c
+          Action: "android.media.action.VIDEO_CAMERA"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_APERTURE:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.RAPID:
+        d309bd3 com.huawei.camera/.controller.RapidSettingActivity filter 55ed310
+          Action: "com.huawei.camera.RAPID"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.BACK_LIVE_PHOTO:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_PANORAMA:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_UNDER_WATER:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.intent.RemoteCall:
+        7d64012 com.huawei.camera/.controller.RemoteCallConfirmActivity filter daaf3e3
+          Action: "com.huawei.camera.intent.RemoteCall"
+      com.huawei.camera.store.show.AI_TRACKING:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.WHITE_BLACK_VIDEO:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.STORYCREATOR:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.action.CAR_INTELLIGENT_CAPTURE:
+        309f1c8 com.huawei.camera/.CarIntelligentCapture filter b971261
+          Action: "com.huawei.camera.action.CAR_INTELLIGENT_CAPTURE"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE:
+        a4b73dc com.huawei.camera/.StoreShow filter 7958ce5
+          Action: "com.huawei.camera.store.show.FRONT_BEAUTY"
+          Action: "com.huawei.camera.store.show.BACK_APERTURE"
+          Action: "com.huawei.camera.store.show.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.store.show.BACK_BEAUTY"
+          Action: "com.huawei.camera.store.show.ZOOM_EXTENSION"
+          Action: "com.huawei.camera.store.show.COLOR_MODE_EXTENSION"
+          Action: "com.huawei.camera.store.show.BACK_HDR"
+          Action: "com.huawei.camera.store.show.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_PANORAMA"
+          Action: "com.huawei.camera.store.show.BACK_DOCUMENT_RECOGNITION"
+          Action: "com.huawei.camera.store.show.SETTING_PAGE"
+          Action: "com.huawei.camera.store.show.BACK_DYNAMIC_STICKER"
+          Action: "com.huawei.camera.store.show.NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.SUPER_CAMERA_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_SUPER_NIGHT_SCENE"
+          Action: "com.huawei.camera.store.show.FRONT_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_RECORD"
+          Action: "com.huawei.camera.store.show.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.store.show.BACK_TIME_LAPSE"
+          Action: "com.huawei.camera.store.show.BACK_LIGHT_PAINTING"
+          Action: "com.huawei.camera.store.show.BACK_ULTRA_HIGH_PIXEL"
+          Action: "com.huawei.camera.store.show.BACK_UNDER_WATER"
+          Action: "com.huawei.camera.store.show.SUPER_SLOW_ACTION"
+          Action: "com.huawei.camera.store.show.AI_TRACKING"
+          Action: "com.huawei.camera.store.show.SUPER_MACRO"
+          Action: "com.huawei.camera.store.show.WHITE_BLACK_VIDEO"
+          Action: "com.huawei.camera.store.show.ZOOM_BAR_FOCUS_DEFAULT"
+          Action: "com.huawei.camera.store.show.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.FREEDOM_CREATION_FAST:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW:
+        ef29186 com.huawei.camera/com.huawei.camera filter 3b06274
+          Action: "com.huawei.camera.shortcut.SNAPSHOT"
+          Action: "com.huawei.camera.shortcut.FRONT_BEAUTY"
+          Action: "com.huawei.camera.shortcut.BACK_PORTRAIT"
+          Action: "com.huawei.camera.shortcut.STORYCREATOR"
+          Action: "com.huawei.camera.shortcut.AI_TRACKING"
+          Action: "com.huawei.camera.shortcut.SUPER_MACRO"
+          Action: "com.huawei.camera.shortcut.NIGHT"
+          Action: "com.huawei.camera.shortcut.BACK_APERTURE"
+          Action: "com.huawei.camera.shortcut.BACK_LIVE_PHOTO"
+          Action: "com.huawei.camera.shortcut.BACK_WHITE_BLACK"
+          Action: "com.huawei.camera.shortcut.BACK_PANORAMA"
+          Action: "com.huawei.camera.shortcut.BACK_PRO_PHOTO"
+          Action: "com.huawei.camera.shortcut.STORY_MODE"
+          Action: "com.huawei.camera.shortcut.STICKER_MODE"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_SLOW"
+          Action: "com.huawei.camera.shortcut.FREEDOM_CREATION_FAST"
+          Action: "com.huawei.camera.shortcut.WIND_SNAPSHOT"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.huawei.storage.MEDIA_ABNORMAL_SD:
+        4df222f com.huawei.camera/com.huawei.camera2.function.abnormalsdcarddetect.AbnormalSdCardBroadcastController$AbnormalSdCardBroadcastReceiver filter ec6103c
+          Action: "com.huawei.storage.MEDIA_ABNORMAL_SD"
+      android.intent.action.LOCALE_CHANGED:
+        daf61c5 com.huawei.camera/com.huawei.camera2.controller.CameraApplication$ShortcutReceiver filter 6d4d71a
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        daf61c5 com.huawei.camera/com.huawei.camera2.controller.CameraApplication$ShortcutReceiver filter 6d4d71a
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.huawei.camera2.radarservice.action.REPORT_EVENT:
+        1295541 com.huawei.camera/com.huawei.camera2.radarservice.CameraBusinessMonitorService filter 7d94ae6
+          Action: "com.huawei.camera2.radarservice.action.REPORT_EVENT"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.RapidCapture:
+        a45b24b com.huawei.camera/com.huawei.rapidcapture.RapidCaptureService filter d01f428 permission com.huawei.camera.permission.RAPID_CAPTURE
+          Action: "com.huawei.RapidCapture"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.huawei.camera.permission.CAMERA_EXIT] (3a830bd):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{ca486b2 com.huawei.camera.permission.CAMERA_EXIT}
+
+Permissions:
+  Permission [com.huawei.camera.permission.AUTO_CAMERA_STATUS] (2c3c603):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{d026980 com.huawei.camera.permission.AUTO_CAMERA_STATUS}
+
+Permissions:
+  Permission [com.android.huawei.permission.RAPID_SETTING_ACTIVITY] (f2c1bb9):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{505bfe com.android.huawei.permission.RAPID_SETTING_ACTIVITY}
+
+Permissions:
+  Permission [com.huawei.camera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (2b2bf5f):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature
+    perm=PermissionInfo{ee49dac com.huawei.camera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Permissions:
+  Permission [com.huawei.camera.permission.REMOTECONTROLLER] (e69ba75):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{5523a0a com.huawei.camera.permission.REMOTECONTROLLER}
+
+Permissions:
+  Permission [com.huawei.camera.permission.RAPID_CAPTURE] (f6df27b):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{7d3e898 com.huawei.camera.permission.RAPID_CAPTURE}
+
+Permissions:
+  Permission [com.huawei.camera.permission.ACCESS_PLUGIN_MARKET] (3a888f1):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{3e1ecd6 com.huawei.camera.permission.ACCESS_PLUGIN_MARKET}
+
+Permissions:
+  Permission [com.android.huawei.permission.KIDS_CAMERA_ACTIVITY] (df3b57):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{f6af644 com.android.huawei.permission.KIDS_CAMERA_ACTIVITY}
+
+Permissions:
+  Permission [com.huawei.camera.permission.FACARD_PROVIDER] (42bc32d):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{de80062 com.huawei.camera.permission.FACARD_PROVIDER}
+
+Permissions:
+  Permission [com.huawei.camera.permission.PRIVATE] (9b235f3):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{a4332b0 com.huawei.camera.permission.PRIVATE}
+
+Permissions:
+  Permission [com.huawei.camera.permission.BACKUP_PROVIDER] (c2e6529):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{949c0ae com.huawei.camera.permission.BACKUP_PROVIDER}
+
+Permissions:
+  Permission [com.huawei.camera.permission.PREFERENCE_PROVIDER] (1b03e4f):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{b20c9dc com.huawei.camera.permission.PREFERENCE_PROVIDER}
+
+Permissions:
+  Permission [com.android.huawei.permission.COLLABORATION_ACTIVITY] (69f2ae5):
+    sourcePackage=com.huawei.camera
+    uid=10167 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{2f539ba com.android.huawei.permission.COLLABORATION_ACTIVITY}
+
+Registered ContentProviders:
+  com.huawei.camera/androidx.core.content.FileProvider:
+    Provider{9dc706b com.huawei.camera/androidx.core.content.FileProvider}
+  com.huawei.camera/com.huawei.camera2.controller.DeleteImageProvider:
+    Provider{adea7c8 com.huawei.camera/com.huawei.camera2.controller.DeleteImageProvider}
+  com.huawei.camera/com.huawei.camera2.controller.PreferenceProvider:
+    Provider{49c9061 com.huawei.camera/com.huawei.camera2.controller.PreferenceProvider}
+  com.huawei.camera/com.huawei.camera2.controller.FaCardProvider:
+    Provider{6ad3786 com.huawei.camera/com.huawei.camera2.controller.FaCardProvider}
+  com.huawei.camera/com.huawei.camera2.controller.BackupProvider:
+    Provider{64fa847 com.huawei.camera/com.huawei.camera2.controller.BackupProvider}
+  com.huawei.camera/androidx.startup.InitializationProvider:
+    Provider{31a7874 com.huawei.camera/androidx.startup.InitializationProvider}
+  com.huawei.camera/.controller.RemoteCallConfirmProvider:
+    Provider{b0d19d com.huawei.camera/.controller.RemoteCallConfirmProvider}
+
+ContentProvider Authorities:
+  [com.huawei.camera.preferenceprovider]:
+    Provider{49c9061 com.huawei.camera/com.huawei.camera2.controller.PreferenceProvider}
+      applicationInfo=ApplicationInfo{7954612 com.huawei.camera}
+  [com.huawei.camera.androidx-startup]:
+    Provider{31a7874 com.huawei.camera/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{9d481e3 com.huawei.camera}
+  [com.huawei.camera.facardprovider]:
+    Provider{6ad3786 com.huawei.camera/com.huawei.camera2.controller.FaCardProvider}
+      applicationInfo=ApplicationInfo{7a0a7e0 com.huawei.camera}
+  [com.huawei.camera.deleteimageprovider]:
+    Provider{adea7c8 com.huawei.camera/com.huawei.camera2.controller.DeleteImageProvider}
+      applicationInfo=ApplicationInfo{9cdea99 com.huawei.camera}
+  [com.huawei.camera.remotecallconfirmProvider]:
+    Provider{b0d19d com.huawei.camera/.controller.RemoteCallConfirmProvider}
+      applicationInfo=ApplicationInfo{57db15e com.huawei.camera}
+  [com.huawei.camera.backupprovider]:
+    Provider{64fa847 com.huawei.camera/com.huawei.camera2.controller.BackupProvider}
+      applicationInfo=ApplicationInfo{f43593f com.huawei.camera}
+  [com.huawei.camera.fileprovider]:
+    Provider{9dc706b com.huawei.camera/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{a98620c com.huawei.camera}
+
+Key Set Manager:
+  [com.huawei.camera]
+      Signing KeySets: 11
+
+Packages:
+  Package [com.huawei.camera] (2099755):
+    userId=10167
+    pkg=Package{aef856a com.huawei.camera}
+    codePath=/hw_product/app/HwCamera2
+    resourcePath=/hw_product/app/HwCamera2
+    legacyNativeLibraryDir=/hw_product/app/HwCamera2/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=100110003 minSdk=29 targetSdk=29
+    minExtensionVersions=[]
+    versionName=13.2.5.396
+    usesNonSdkApi=false
+    splits=[base, AperturePhotoMode, ArcsoftPanoramaSoLib, BeautyMode, DistributedCameraMode, DocumentRecognitionMode, DualVideoMode, FluorescenceMode, FoodMode, GimbalLib, HDRMode, LightPaintingMode, LivePhotoMode, PanoramaMode, PerformanceMode, ProPhotoMode, RoundPhotoMode, RoundPortraitMode, RoundVideoMode, SlowMotionMode, SmartFollowMode, StickerMode, StoryMode, SuperMacroMode, SuperNightMode, SuperSlowMotionMode, SuperStabilizerMode, TimeLapseMode, UltraHighPixelMode, UnderWaterMode, WindSnapshotMode]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{aef856a com.huawei.camera}
+    applicationInfo.owns=0
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    hwflags=[ ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE ISOLATED_SPLIT_LOADING PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.huawei.camera
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesOptionalLibraries:
+      com.huawei.audioalgo
+      com.huawei.hwpostcamera
+      ohos.media.medialibrary
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/com.huawei.audioalgo.jar
+      /system/framework/hwpostcamera.jar
+      /system/priv-app/MediaLibrary/MediaLibrary.apk
+    timeStamp=2018-08-08 01:01:00
+    firstInstallTime=2018-08-08 01:01:00
+    lastUpdateTime=2018-08-08 01:01:00
+    signatures=PackageSignatures{c9e4a5b version:3, signatures:[dc3af7ca], past signatures:[a9e6b731 flags: 17, dc3af7ca flags: 17]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.huawei.camera.permission.ACCESS_PLUGIN_MARKET: prot=signature|privileged, INSTALLED
+      com.huawei.camera.permission.PRIVATE: prot=signature|privileged, INSTALLED
+      com.huawei.camera.permission.RAPID_CAPTURE: prot=signature|privileged, INSTALLED
+      com.huawei.camera.permission.PREFERENCE_PROVIDER: prot=signature|privileged, INSTALLED
+      com.huawei.camera.permission.BACKUP_PROVIDER: prot=signature|privileged, INSTALLED
+      com.huawei.camera.permission.FACARD_PROVIDER: prot=signature|privileged, INSTALLED
+      com.android.huawei.permission.KIDS_CAMERA_ACTIVITY: prot=signature|privileged, INSTALLED
+      com.huawei.camera.permission.CAMERA_EXIT: prot=signature|privileged, INSTALLED
+      com.android.huawei.permission.COLLABORATION_ACTIVITY: prot=signature|privileged, INSTALLED
+      com.huawei.camera.permission.REMOTECONTROLLER: prot=signature|privileged, INSTALLED
+      com.huawei.camera.permission.AUTO_CAMERA_STATUS: prot=signature|privileged, INSTALLED
+      com.android.huawei.permission.RAPID_SETTING_ACTIVITY: prot=signature|privileged, INSTALLED
+      com.huawei.camera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      com.huawei.permission.MANAGE_FOLD_SCREEN
+      com.huawei.permission.MANAGE_FOLD_SCREEN_PRIVILEGED
+      android.permission.CAMERA
+      com.huawei.permission.HW_SERVICE_HOST
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.WRITE_MEDIA_STORAGE
+      huawei.android.permission.HW_SIGNATURE_OR_SYSTEM
+      com.huawei.tips.permission.SHOW_TIPS
+      com.huawei.recsys.permission.THIRD_REQUEST_ENGINE
+      android.permission.DEVICE_POWER
+      android.permission.CAPTURE_AUDIO_OUTPUT
+      android.permission.MODIFY_AUDIO_ROUTING
+      com.huawei.music.gallery.permission.ACCESS_INTERFACE
+      android.permission.RECORD_AUDIO
+      com.huawei.gallery.permission.START_APP
+      android.permission.READ_EXTERNAL_STORAGE
+      com.huawei.camera.permission.ACCESS_PLUGIN_MARKET
+      com.huawei.camera.permission.PRIVATE
+      android.permission.BLUETOOTH
+      com.huawei.gallery.permission.GALLERY_PROVIDER
+      android.permission.VIBRATE
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.WRITE_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.huawei.permission.sec.MDM.v2
+      android.permission.STOP_APP_SWITCHES
+      android.permission.REAL_GET_TASKS
+      android.permission.INTERNET
+      com.huawei.android.totemweather.permission.ACCESS_WEATHERCLOCK_PROVIDER
+      com.huawei.totemweather.permission.THIRD_REQUEST_WEATHER
+      com.huawei.dmsdp.permission.CameraRemoteCtrlProvider.write
+      com.huawei.dmsdp.permission.CameraRemoteCtrlProvider.read
+      com.huawei.dmsdp.DMSDPCameraRemoteCtrlService.BIND_SERVICE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.MANAGE_USERS
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.REORDER_TASKS
+      android.permission.BLUETOOTH_ADMIN
+      com.android.huawei.permission.OUTSIDE_STOP_FM
+      com.android.mediacenter.permission.BACKGROUND_MUSIC
+      com.huawei.camera.permission.PREFERENCE_PROVIDER
+      com.huawei.dataprivacycenter.permission.LAUNCH_DATA_PRIVACY_CENTER
+      com.huawei.dataprivacycenter.permission.LAUNCH_APP_PRIVACY_STATEMENT
+      com.huawei.permission.LIGHT_WAVE
+      com.huawei.hmsauto.permission.intelligence.SERVICE_PROVIDER
+      ohos.permission.vehicle.STEERING_WHEEL_INFO
+      ohos.permission.vehicle.TRANSMISSION_INFO
+      ohos.permission.vehicle.CAR_MOVING_INFO
+      com.huawei.hiai.permission.HIAIENGINE_START_COMPONENT
+      com.huawei.scanner.permission.SCAN_IMAGE
+      huawei.permission.GET_CAMERA_SESSION_STATS
+      com.huawei.permission.BackgroundCameraModeLayout
+      com.huawei.permission.SOFTNET
+      com.huawei.permission.sec.ACCESS_UDID
+      com.android.launcher.permission.RECEIVE_LAUNCH_BROADCASTS
+      com.huawei.android.launcher.permission.HW_MOTION
+      com.huawei.permission.SET_AUDIO_PARAMETERS
+      com.huawei.music.permission.WRITE_BGM
+      com.huawei.music.permission.READ_BGM
+      com.huawei.systemmanager.permission.APPLY_TRIM_POLICY
+      com.huawei.camera.permission.REMOTECONTROLLER
+      com.huawei.kidsmode.permission.provider
+      com.huawei.thermal.receiverPermission
+      android.permission.ACCESS_NOTIFICATION_POLICY
+      com.huawei.scanner.permission.PRIVATE
+      com.huawei.decision.permission.ACCESS_PERMISSION
+      com.huawei.systemserver.permission.PLUGIN_SERVICE
+      com.huawei.camera.permission.AUTO_CAMERA_STATUS
+      com.huawei.permission.CONFIG_BRIGHTNESS
+      com.huawei.permission.HwToolBarProvider
+      com.huawei.hiai.awareness.ACCESS_BIND_COMMON_FENCE_AWARENESSSERVICE
+      com.huawei.android.permission.ACCESS_BIND_DEVICESTATUS_SERVICE
+      com.huawei.android.thememanager.permission.THEME_PROVIDER_ACCESS
+      com.huawei.watch.home.permission.LAUNCH_ACTIVITY_ASSISTANT_SCREEN
+      com.huawei.android.permission.HW_SIGNATURE_OR_SYSTEM
+      com.huawei.permission.OBSERVE_ACCESS_PRIVACY
+      com.huawei.permission.SET_ACCESS_PRIVACY
+      com.huawei.systemui.permission.SYSTEM_SCREEN_LOCK
+      com.huawei.camera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.POST_NOTIFICATIONS
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADVERTISE
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      com.huawei.decision.permission.ACCESS_PERMISSION: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.huawei.permission.sec.ACCESS_UDID: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.MODIFY_AUDIO_ROUTING: granted=true
+      com.huawei.hiai.permission.HIAIENGINE_START_COMPONENT: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.huawei.camera.permission.AUTO_CAMERA_STATUS: granted=true
+      com.huawei.tips.permission.SHOW_TIPS: granted=true
+      com.huawei.permission.OBSERVE_ACCESS_PRIVACY: granted=true
+      android.permission.DEVICE_POWER: granted=false
+      com.huawei.thermal.receiverPermission: granted=true
+      com.huawei.permission.LIGHT_WAVE: granted=true
+      com.huawei.camera.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.huawei.totemweather.permission.THIRD_REQUEST_WEATHER: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      android.permission.INTERNET: granted=true
+      com.huawei.camera.permission.REMOTECONTROLLER: granted=true
+      com.huawei.permission.MANAGE_FOLD_SCREEN_PRIVILEGED: granted=true
+      com.huawei.permission.CONFIG_BRIGHTNESS: granted=true
+      com.huawei.systemui.permission.SYSTEM_SCREEN_LOCK: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.huawei.dataprivacycenter.permission.LAUNCH_DATA_PRIVACY_CENTER: granted=true
+      com.huawei.systemmanager.permission.APPLY_TRIM_POLICY: granted=true
+      com.huawei.android.totemweather.permission.ACCESS_WEATHERCLOCK_PROVIDER: granted=true
+      com.huawei.music.permission.WRITE_BGM: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=false
+      com.huawei.dmsdp.DMSDPCameraRemoteCtrlService.BIND_SERVICE: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      com.huawei.camera.permission.ACCESS_PLUGIN_MARKET: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      huawei.android.permission.HW_SIGNATURE_OR_SYSTEM: granted=true
+      android.permission.CAPTURE_AUDIO_OUTPUT: granted=true
+      com.huawei.scanner.permission.SCAN_IMAGE: granted=true
+      com.huawei.gallery.permission.GALLERY_PROVIDER: granted=true
+      com.huawei.permission.BackgroundCameraModeLayout: granted=true
+      com.huawei.systemserver.permission.PLUGIN_SERVICE: granted=true
+      com.huawei.permission.SET_ACCESS_PRIVACY: granted=true
+      com.huawei.dmsdp.permission.CameraRemoteCtrlProvider.read: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      huawei.permission.GET_CAMERA_SESSION_STATS: granted=true
+      com.huawei.music.permission.READ_BGM: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.huawei.permission.sec.MDM.v2: granted=true
+      com.huawei.scanner.permission.PRIVATE: granted=true
+      com.huawei.recsys.permission.THIRD_REQUEST_ENGINE: granted=true
+      com.huawei.gallery.permission.START_APP: granted=true
+      com.huawei.camera.permission.PRIVATE: granted=true
+      com.huawei.permission.SET_AUDIO_PARAMETERS: granted=false
+      com.huawei.permission.MANAGE_FOLD_SCREEN: granted=true
+      com.huawei.music.gallery.permission.ACCESS_INTERFACE: granted=true
+      com.android.launcher.permission.RECEIVE_LAUNCH_BROADCASTS: granted=false
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      com.huawei.hiai.awareness.ACCESS_BIND_COMMON_FENCE_AWARENESSSERVICE: granted=true
+      com.huawei.android.thememanager.permission.THEME_PROVIDER_ACCESS: granted=true
+      com.huawei.dataprivacycenter.permission.LAUNCH_APP_PRIVACY_STATEMENT: granted=true
+      android.permission.VIBRATE: granted=true
+      com.huawei.dmsdp.permission.CameraRemoteCtrlProvider.write: granted=true
+      com.huawei.permission.HW_SERVICE_HOST: granted=true
+      com.huawei.android.permission.ACCESS_BIND_DEVICESTATUS_SERVICE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.huawei.permission.SOFTNET: granted=true
+      com.huawei.camera.permission.PREFERENCE_PROVIDER: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.huawei.android.launcher.permission.HW_MOTION: granted=true
+    User 0: ceDataInode=6758 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=1 instant=false virtual=false
+      gids=[3002, 1023, 3003, 3001]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|524288]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+    User 10: ceDataInode=169061 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3002, 1023, 3003, 3001]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.huawei.notepad:
+      com.huawei.camera
+    com.huawei.camera:
+      com.huawei.photos
+  queries via intent:
+    [com.huawei.game.kitserver,com.huawei.audioaccessorymanager,com.android.localtransport,com.huawei.iaware,com.android.wallpaperbackup,com.huawei.powergenie,com.android.networkstack.inprocess,com.huawei.android.internal.app,com.huawei.hiview,com.android.inputdevices,com.android.location.fused,androidhwext,com.android.settings,com.android.providers.settings,com.huawei.android.projectmenu,com.huawei.hwdetectrepair,com.huawei.searchservice,com.huawei.android.hwaps,com.android.networkstack.tethering.inprocess,com.huawei.harmonyos.foundation,com.huawei.msdp,com.android.server.telecom,com.huawei.dmsdp,android,com.huawei.hwddmp,com.huawei.mmitest,com.huawei.waudio,com.huawei.nb.service,com.huawei.systemmanager,com.android.keychain,com.huawei.android.chr,com.huawei.systemserver]:
+      com.huawei.camera
+    com.huawei.music:
+      com.huawei.camera
+    com.yandex.browser:
+      com.huawei.camera
+    ru.mts.mymts:
+      com.huawei.camera
+    com.wildberries.ru:
+      com.huawei.camera
+    ru.mail.mailapp:
+      com.huawei.camera
+    com.banyac.midrive.app.russia:
+      com.huawei.camera
+    com.vkontakte.android:
+      com.huawei.camera
+    ru.gibdd_pay.app:
+      com.huawei.camera
+    ru.rostel:
+      com.huawei.camera
+    ru.vtb24.mobilebanking.android:
+      com.huawei.camera
+    ru.filit.mvideo.b2c:
+      com.huawei.camera
+    ru.dns.shop.android:
+      com.huawei.camera
+    com.whatsapp:
+      com.huawei.camera
+    com.instagram.android:
+      com.huawei.camera
+    com.dartit.RTcabinet:
+      com.huawei.camera
+    sputnik.axmor.com:
+      com.huawei.camera
+    com.allgoritm.youla:
+      com.huawei.camera
+    com.octopod.russianpost.client.android:
+      com.huawei.camera
+    ru.dublgis.dgismobile:
+      com.huawei.camera
+    ru.rutube.app:
+      com.huawei.camera
+    com.microsoft.office.officehubrow:
+      com.huawei.camera
+    com.vk.vkvideo:
+      com.huawei.camera
+    com.tencent.mm:
+      com.huawei.camera
+    com.supercell.clashroyale:
+      com.huawei.camera
+    com.google.android.youtube:
+      com.huawei.camera
+    ru.fns.lkfl:
+      com.huawei.camera
+    ru.beeline.services:
+      com.huawei.camera
+    mayaknetworks.app:
+      com.huawei.camera
+  queryable via interaction:
+    User 0:
+      [com.huawei.game.kitserver,com.huawei.audioaccessorymanager,com.android.localtransport,com.huawei.iaware,com.android.wallpaperbackup,com.huawei.powergenie,com.android.networkstack.inprocess,com.huawei.android.internal.app,com.huawei.hiview,com.android.inputdevices,com.android.location.fused,androidhwext,com.android.settings,com.android.providers.settings,com.huawei.android.projectmenu,com.huawei.hwdetectrepair,com.huawei.searchservice,com.huawei.android.hwaps,com.android.networkstack.tethering.inprocess,com.huawei.harmonyos.foundation,com.huawei.msdp,com.android.server.telecom,com.huawei.dmsdp,android,com.huawei.hwddmp,com.huawei.mmitest,com.huawei.waudio,com.huawei.nb.service,com.huawei.systemmanager,com.android.keychain,com.huawei.android.chr,com.huawei.systemserver]:
+        com.huawei.camera
+      com.android.providers.media.module:
+        com.huawei.camera
+      com.huawei.camera:
+        [com.huawei.game.kitserver,com.huawei.audioaccessorymanager,com.android.localtransport,com.huawei.iaware,com.android.wallpaperbackup,com.huawei.powergenie,com.android.networkstack.inprocess,com.huawei.android.internal.app,com.huawei.hiview,com.android.inputdevices,com.android.location.fused,androidhwext,com.android.settings,com.android.providers.settings,com.huawei.android.projectmenu,com.huawei.hwdetectrepair,com.huawei.searchservice,com.huawei.android.hwaps,com.android.networkstack.tethering.inprocess,com.huawei.harmonyos.foundation,com.huawei.msdp,com.android.server.telecom,com.huawei.dmsdp,android,com.huawei.hwddmp,com.huawei.mmitest,com.huawei.waudio,com.huawei.nb.service,com.huawei.systemmanager,com.android.keychain,com.huawei.android.chr,com.huawei.systemserver]
+        com.huawei.hidisk
+        com.android.providers.media.module
+        com.huawei.photos
+        com.yandex.browser
+      com.huawei.photos:
+        com.huawei.camera
+      ru.yandex.androidkeyboard:
+        com.huawei.camera
+    User 10:
+  queryable via uses-library:
+    com.huawei.camera:
+      ohos.media.medialibrary
+
+Package Changes:
+  Sequence number=189
+  User 0:
+    seq=1, package=com.huawei.health
+    seq=93, package=ru.beeline.services
+    seq=97, package=ru.oneme.app
+    seq=98, package=com.logistic.sdek
+    seq=99, package=com.deepseek.chat
+    seq=113, package=ru.aliexpress.buyer
+    seq=117, package=su.happ.proxyutility
+    seq=122, package=org.telegram.messenger
+    seq=123, package=com.whatsapp
+    seq=143, package=com.supercell.clashroyale
+    seq=154, package=com.newword.medved.bbb
+    seq=156, package=com.google.android.gms
+    seq=160, package=com.instagram.android
+    seq=165, package=ru.drom.numbers
+    seq=170, package=ru.dublgis.dgismobile
+    seq=174, package=mayaknetworks.app
+    seq=178, package=com.android.bluetooth
+    seq=182, package=ru.filit.mvideo.b2c
+    seq=183, package=com.huawei.appmarket
+    seq=184, package=com.dartit.RTcabinet
+    seq=185, package=ru.mail.mailapp
+    seq=186, package=ru.mail.cloud
+    seq=188, package=com.huawei.camera
+
+
+
+Compiler stats:
+  [com.huawei.camera]
+     PerformanceMode-master.apk - 192
+     DocumentRecognitionMode-master.apk - 175
+     SuperSlowMotionMode-master.apk - 224
+     DualVideoMode-master.apk - 195
+     LightPaintingMode-master.apk - 222
+     SuperStabilizerMode-master.apk - 219
+     LivePhotoMode-master.apk - 181
+     SmartFollowMode-master.apk - 217
+     RoundPhotoMode-master.apk - 216
+     SlowMotionMode-master.apk - 218
+     RoundVideoMode-master.apk - 196
+     UnderWaterMode-master.apk - 198
+     WindSnapshotMode-master.apk - 214
+     PanoramaMode-master.apk - 200
+     HDRMode-master.apk - 214
+     base-master.apk - 2658
+     StoryMode-master.apk - 215
+     ProPhotoMode-master.apk - 188
+     SuperNightMode-master.apk - 204
+     GimbalLib-master.apk - 258
+     DistributedCameraMode-master.apk - 199
+     FluorescenceMode-master.apk - 215
+     TimeLapseMode-master.apk - 205
+     StickerMode-master.apk - 220
+     AperturePhotoMode-master.apk - 218
+     ArcsoftPanoramaSoLib-master.apk - 208
+     SuperMacroMode-master.apk - 257
+     RoundPortraitMode-master.apk - 215
+     FoodMode-master.apk - 211
+     BeautyMode-master.apk - 194
+     UltraHighPixelMode-master.apk - 204
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+Snapshot statistics
+   Unrecorded-hits: 9111  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:26         now           0           0           0           0           0           0           0
+          1:26        0:26           0           0           0           0           0           0           0
+          2:26        1:26           1        8678           0           0           0           0           0
+          3:26        2:26           0           0           0           0           0           0           0
+          4:26        3:26           3      111931           0           0           0           2           1
+          5:26        4:26           0           0           0           0           0           0           0
+          6:26        5:26           0           0           0           0           0           0           0
+          7:26        6:26           0           0           0           0           0           0           0
+          8:26        7:26           0           0           0           0           0           0           0
+          9:26        8:26           0           0           0           0           0           0           0
+    3:03:17:33         now        2174    14011306           0          15         166        2727          79
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:26         now           0           0           0           0           0           0           0           0
+          1:26        0:26           0           0           0           0           0           0           0           0
+          2:26        1:26           1           0           0           0           0           0           0           0
+          3:26        2:26           0           0           0           0           0           0           0           0
+          4:26        3:26           3           0           0           0           0           0           0           0
+          5:26        4:26           0           0           0           0           0           0           0           0
+          6:26        5:26           0           0           0           0           0           0           0           0
+          7:26        6:26           0           0           0           0           0           0           0           0
+          8:26        7:26           0           0           0           0           0           0           0           0
+          9:26        8:26           0           0           0           0           0           0           0           0
+    3:03:17:33         now        1875         196          80           8           3           9           3           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:26         now           0           0           0           0           0           0           0           0
+          1:26        0:26           0           0           0           0           0           0           0           0
+          2:26        1:26           0           0           0           0           0           0           0           1
+          3:26        2:26           0           0           0           0           0           0           0           0
+          4:26        3:26           0           0           0           0           0           0           0           3
+          5:26        4:26           0           0           0           0           0           0           0           0
+          6:26        5:26           0           0           0           0           0           0           0           0
+          7:26        6:26           0           0           0           0           0           0           0           0
+          8:26        7:26           0           0           0           0           0           0           0           0
+          9:26        8:26           0           0           0           0           0           0           0           0
+    3:03:17:33         now          61           9          95          80         123         138         161        1506
